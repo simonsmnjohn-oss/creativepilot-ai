@@ -1,0 +1,13 @@
+[project]
+name = "creativepilot-ai"
+version = "0.1.0"
+description = "Compliance-first LinkedIn referral outreach assistant"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
